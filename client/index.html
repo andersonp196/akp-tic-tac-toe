@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="client/style.css"/>
+  </head>
+  <body>
+    <p id="turn">Anyone's Turn</p>
+    <div id="container">
+      <div class="row">
+        <div class="box" id="0">
+          <p class="boxText" id="p0"></p>
+        </div>
+        <div class="box" id="1">
+          <p class="boxText" id="p1"></p>
+        </div>
+        <div class="box" id="2">
+          <p class="boxText" id="p2"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="box" id="3">
+          <p class="boxText" id="p3"></p>
+        </div>
+        <div class="box" id="4">
+          <p class="boxText" id="p4"></p>
+        </div>
+        <div class="box" id="5">
+          <p class="boxText" id="p5"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="box" id="6">
+          <p class="boxText" id="p6"></p>
+        </div>
+        <div class="box" id="7">
+          <p class="boxText" id="p7"></p>
+        </div>
+        <div class="box" id="8">
+          <p class="boxText" id="p8"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src='/socket.io/socket.io.js'></script>
+    <script src='/client/client.js'></script>
+  </body>
+</html>
